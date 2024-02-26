@@ -1,0 +1,23 @@
+COLUMN Names
+Fred
+John
+COLUMN Names
+James
+Oke
+Grace
+COLUMN Addresses
+Pontypridd
+Treforest
+COLUMN Credit
+10
+20
+COLUMN Product Names
+Widget 1
+Widget 2
+COLUMN Suppliers
+SupplierA
+SupplierB
+COLUMN Price
+10
+20
+END
