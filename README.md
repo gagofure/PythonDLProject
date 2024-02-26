@@ -1,7 +1,8 @@
-# Python Data Loader. 
-##Data manipulate in with Dictioanry and List
+# Python Data Structure (Dictionary and List)
 
-This Python script provides functions to load data from a file into either a dictionary or a list, and then output the data along with total, mean, and median calculations.
+## Introduction
+
+This Python script takes in a file containing data in a specific format(Data.txt) and provides functions to load data from a file into either a dictionary or a list, and then output the data in a formatted way along with total, mean, and median calculations for a specific column in the data(it has be a number column).
 
 ## Usage
 
@@ -29,24 +30,19 @@ This Python script provides functions to load data from a file into either a dic
 
 ```python
 filename = 'Data.txt'  # Replace with the actual path to your file
-loaded_data_dictionary = load_data_from_file_into_dictionary(filename)
-loaded_data_list = load_data_from_file_into_list(filename)
+loaded_data_dictionary = load_data_from_file_into_dictionary(filename)  # Load data from file into dictionary
+loaded_data_list = load_data_from_file_into_list(filename)  # Load data from file into list
 
 print(loaded_data_dictionary)  # Output data from dictionary
-print()
 
 output_data_from_dictionary(loaded_data_dictionary)  # Output data from dictionary
-print()
 
 print(loaded_data_list)  # Output data from list
-print()
 
 output_data_from_list(loaded_data_list)  # Output data from list
-print()
 
 # Output total, mean, and median from the column Price in a dictionary
 output_total_mean_median(loaded_data_dictionary, "Price")  
-print()
 
-# Output total, mean, and median from the column Price in a list  
-output_total_mean_median(loaded_data_list, "Price") 
+# Output total, mean, and median from the column Price in a list 
+output_total_mean_median(loaded_data_list, "Price")
